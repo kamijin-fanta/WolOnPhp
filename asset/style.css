@@ -1,0 +1,21 @@
+.page-login .panel-body {
+  padding: 70px 10%; }
+
+.page-index .panel .nav-pills.nav > li > a {
+  padding: 5px 15px; }
+.page-index .panel .nav-justified > li {
+  display: table-cell;
+  width: 1%; }
+.page-index .device .progress-bar {
+  opacity: 0; }
+.page-index .device .btn.success, .page-index .device .btn.loading, .page-index .device .btn.fail {
+  display: none; }
+.page-index .device.success .btn.success {
+  display: inline; }
+.page-index .device.loading .btn.loading {
+  display: inline; }
+.page-index .device.fail .btn.fail {
+  display: inline; }
+
+footer {
+  margin-top: 200px; }

@@ -1,0 +1,7 @@
+setting/device/
+setting/common.json
+script/packages/
+script/obj/
+script/script.csproj
+script/script.sln
+script/packages.config

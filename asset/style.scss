@@ -1,0 +1,54 @@
+
+
+
+.page-login {
+  .panel-body {
+    padding: 70px 10%;
+  }
+}
+
+.page-index{
+  .panel{
+    .nav-pills.nav>li>a{
+      padding: 5px 15px;
+    }
+    .nav-justified>li {
+      display: table-cell;
+      width: 1%;
+    }
+  }
+  
+  .device {
+    .progress-bar {
+      opacity: 0;
+    }
+    
+    .btn {
+      &.success,
+      &.loading,
+      &.fail{
+        display: none;
+      }
+    }
+    &.success {
+      .btn.success {
+        display: inline;
+      }
+    }
+    &.loading {
+      .btn.loading {
+        display: inline;
+      }
+    }
+    &.fail {
+      .btn.fail {
+        display: inline;
+      }
+    }
+    
+  }
+}
+
+footer{
+  margin-top: 200px;
+}
